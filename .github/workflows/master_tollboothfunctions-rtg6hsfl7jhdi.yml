@@ -4,9 +4,9 @@
 name: Build and deploy dotnet core app to Azure Function App - TollBoothFunctions-rtg6hsfl7jhdi
 
 on: |+
-  push:
+ push:
     branches:
-      master
+     - master
   workflow_dispatch:
 
 env:
